@@ -46,6 +46,7 @@ class LogIn : AppCompatActivity() {
             binding.tilLogInPassword.error = null
         }
 
+
         if (!error){
 //            Toast.makeText(this, "Log In Successful", Toast.LENGTH_SHORT).show()
             val intent = Intent(this, Home::class.java)
